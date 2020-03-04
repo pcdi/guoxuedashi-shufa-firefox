@@ -1,0 +1,18 @@
+{
+
+    "manifest_version": 2,
+    "name": "Guoxue Dashi calligraphy dictionary 国学大师书法字典",
+    "version": "1.0",
+
+    "description": "Adds the Guoxue Dashi dictionary search engine.",
+
+    "chrome_settings_overrides": {
+	"search_provider": {
+	    "name": "国学大师书法字典",
+	    "search_url": "https://m2.guoxuedashi.com/shufa/?kz=70&sokeyshufa={searchTerms}",
+	    "keyword": "gxdssf",
+	    "favicon_url": "https://m2.guoxuedashi.com/app/img/gxds.png"
+	}
+    }
+
+}
